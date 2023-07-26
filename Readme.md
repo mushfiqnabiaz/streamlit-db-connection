@@ -22,3 +22,19 @@ This Streamlit web application demonstrates how to connect to a MySQL database a
 ```bash
 git clone https://github.com/mushfiqnabiaz/streamlit-db-connection.git
 cd streamlit-db-connection
+
+2. Install the required packages
+
+pip install streamlit mysql-connector-python pandas
+
+3. Update the MySQL database credentials:
+    Open the app.py file and replace the following placeholders with your actual database credentials:
+
+host="your_host",
+user="your_user",
+password="your_password",
+database="your_database"
+
+4. Run the streamlit app
+
+streamlit run app.py
